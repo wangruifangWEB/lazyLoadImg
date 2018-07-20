@@ -1,0 +1,22 @@
+.getLocation {
+  display: flex;
+  font-size: 24rpx;
+}
+
+.getLocation view {
+  width:90%;
+  margin: 30rpx;
+}
+
+image {
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 50%;
+  margin-left: 40rpx;
+}
+
+input {
+  width: 100%;
+  height: 40rpx;
+  border-bottom: 1px solid #eee;
+}

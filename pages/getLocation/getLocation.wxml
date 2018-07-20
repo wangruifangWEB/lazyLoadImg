@@ -1,0 +1,17 @@
+<view class="getLocation">
+  <view>
+     <view class="getLocation">
+        <input value="{{StarAddressName}}"></input>
+        <image bindtap="getLocationName" src="http://pic41.photophoto.cn/20161126/0007020132648149_b.jpg"></image>
+     </view>
+     <view class="getLocation">
+     <input value="{{endAddressName}}"></input>
+        <image  bindtap="getEndLocationName" src="http://pic41.photophoto.cn/20161126/0007020132648149_b.jpg"></image>
+     </view>
+
+     <!--获取当前到目标地址的距离  -->
+     <view class="distance">
+        <text>算出当前位置到目标地址距离值为：{{distanceValue}}</text>
+     </view>
+  </view>
+</view>
